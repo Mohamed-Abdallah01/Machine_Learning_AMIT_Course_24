@@ -26,14 +26,14 @@ class Maths:
 
 
 
-prime_check = NumberOperations(16)
+prime_check = Maths(16)
 print(prime_check.is_prime())
 
 
-common_div = NumberOperations(6, 5)
+common_div = Maths(6, 5)
 print(common_div.common_divisors())
 
-common_div_large = NumberOperations(100, 80)
+common_div_large = Maths(100, 80)
 print(common_div_large.common_divisors())
 
 
