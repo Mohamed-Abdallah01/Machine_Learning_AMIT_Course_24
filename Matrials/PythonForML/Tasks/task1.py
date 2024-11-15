@@ -100,3 +100,8 @@ learning.extend('machine_leaing')
 print(learning)
 
 
+def  century_from_year(year):
+     century = (year+99)
+     return century
+
+century_from_year(2020)

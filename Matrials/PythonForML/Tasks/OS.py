@@ -1,8 +1,11 @@
-#Operating System Module In Python
-import os
-import random
+f_gpa = 3.5
+s_gpa = 4.2
 
-BaseDir = r"C:\Users\20122\Desktop\AmitTestFolder"
-FolderContent = os.listdir(BaseDir)
-print(FolderContent)
+if f_gpa > s_gpa:
+    print(f"The First GPA is largest  ={f_gpa}")
+elif s_gpa > f_gpa:
+    print(f"The Second GPA is largest  = {s_gpa}")
+else:
+    print(f"ALL OF THEM EQUALAVENT")
 
+#Output => The Second GPA is largest = 4.2
